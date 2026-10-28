@@ -1,0 +1,19 @@
+{
+  "name": "avalanche-run",
+  "private": true,
+  "version": "0.4.0",
+  "description": "Original downhill skiing arcade game: outrun the avalanche. Runs in the browser and as a Tauri desktop app.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}
